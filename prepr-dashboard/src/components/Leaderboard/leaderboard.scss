@@ -1,0 +1,81 @@
+// leaderboard.scss
+
+.leaderBoard {
+    // Styles for the container div
+    h3 {
+      // Styles for the h4 element inside .leaderBoard
+      margin-bottom: 20px;
+    }
+  
+    .leaderboard-table {
+      // Styles for the table
+      width: 100%;
+      border-spacing: 0 40px;
+      
+  
+      th {
+        // Styles for table header cells
+        font-size: 15px;
+        text-align: left; // Align the content to the left
+      padding: 10px; // Adjust padding as needed
+        
+      }
+  
+      .listItem {
+        // Styles for each row in the table body
+        align-items: center;
+        
+
+        
+        .user-info {
+          // Styles for the "Username" column
+          display: flex;
+          align-items: center;
+  
+          .user-avatar {
+            // Styles for the user's avatar image
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin-right: 10px;
+            object-fit: cover;
+          }
+  
+          .user-details {
+            // Styles for the container of username and ID
+            .user-username {
+              // Styles for the username
+                font-size: 15px;
+            }
+  
+            .user-id {
+              // Styles for the user ID
+              color: #666;
+            }
+          }
+        }
+  
+        .user-points {
+          // Styles for the "Points" column
+          // Add your styles here
+          font-size: 15px;
+          align-items: center;
+        }
+  
+        .user-rank {
+          // Styles for the "Rank" column
+          // Add your styles here
+          font-size: 15px;
+          align-items: center;
+        }
+  
+        .user-achievements {
+          // Styles for the "Achievements" column
+          // Add your styles here
+          font-size: 15px;
+          align-items: center;
+        }
+      }
+    }
+  }
+  

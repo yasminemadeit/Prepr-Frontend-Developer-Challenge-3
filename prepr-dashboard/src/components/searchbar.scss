@@ -1,0 +1,7 @@
+@import '../assets/responsive.scss';
+
+input{
+    @include sm{
+        display: none;
+    }
+}

@@ -1,0 +1,57 @@
+.deadline{
+
+
+    .list{
+
+        margin-top: 20px;
+
+        .list-item-container{
+
+            display: flex;
+            flex-direction: column;
+            
+
+            .list-item{
+                display: flex;
+                flex-direction: row;
+                gap: 30px;
+                
+                
+                img{
+    
+                }
+                .texts{
+                    display: flex;
+                    flex-direction: column;
+                    
+    
+                    h4{
+                        font-size: 14px;
+    
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+    
+                
+    
+            }
+            
+            
+            
+            
+            .divider{
+
+                display: flex;
+                border: 0.25px solid #ccc; 
+                margin: 20px auto;
+                width: 500px;
+                
+            }
+        }
+       
+       
+
+    }
+}

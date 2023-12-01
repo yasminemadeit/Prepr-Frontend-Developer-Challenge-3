@@ -1,0 +1,52 @@
+@import '../../assets/variables.scss';
+
+.continue{
+    display: flex;
+    flex-direction: column;
+
+    p{
+        margin-top: 20px;
+        margin-bottom: 50px;
+        color: $soft-color;
+
+    }
+
+    .explore{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        
+
+
+        img{
+            display: flex;
+            width:120px;
+            height: 128px;
+            margin-bottom: 30px;
+
+            
+        }
+
+        .explore-more{
+            display: flex;
+            margin-top: 20px;
+            justify-content: center;
+            align-items: center;
+            border:none;
+            width: 100px;
+            height: 39px;
+            color: #fff;
+            background: #24ae60;
+            border-radius: 10px;
+            font-size: 13px;
+            font-weight: 700;
+            cursor: pointer;
+            border:none;
+        }
+    }
+   
+
+   
+}

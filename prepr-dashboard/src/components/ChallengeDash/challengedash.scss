@@ -1,0 +1,58 @@
+.challenge-dash{
+    display: flex,;
+    flex-direction: column;
+
+
+    .title{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 30px;
+        gap: 10px;
+    }
+
+    .list-container{
+
+        .list-item{
+            margin-bottom: 20px;
+            
+            h5{
+                margin-bottom: 7px;
+            }
+
+            .element{
+                gap: 5px;
+                display: flex;
+                img{
+                    width:60px;
+                    height: 40px;
+                    
+                }
+                p{
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    .explore{
+        display: flex;
+        justify-content: center;
+
+        .explore-more{
+            display: flex;
+            margin-top: 20px;
+            justify-content: center;
+            align-items: center;
+            width: 100px;
+            height: 39px;
+            color: #fff;
+            background: #24ae60;
+            border-radius: 10px;
+            font-size: 13px;
+            font-weight: 700;
+            cursor: pointer;
+            border:none;
+        }
+    }
+   
+
+}
